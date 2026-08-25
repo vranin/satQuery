@@ -1,0 +1,44 @@
+# SatQuery — .gitignore
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Outputs (generated at runtime)
+outputs/
+
+# BigEarthNet raw data (do not commit large satellite files)
+data/bigearthnet/**/*.tif
+data/bigearthnet/**/*.TIF
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
